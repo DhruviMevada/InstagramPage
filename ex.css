@@ -1,0 +1,110 @@
+.form{
+    background-color: white;
+    border: solid 0.5px black;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex ;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 68%, rgba(252,176,69,1) 96%);
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Dancing Script", serif;
+}
+.Main{
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+}
+.text{
+    width: 300px;
+    height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    width: 307px;
+    height: 35px;
+    background-color: hwb(241 0% 0% / 0.856);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: hwb(227 0% 0% / 0.774);
+}
+.or-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .or-separator::before,
+  .or-separator::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .or-separator span {
+    margin: 0 10px;
+    padding: 0 5px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .facebook-icon{
+    display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin-right: 5px;
+      vertical-align: middle;
+      background-image: url("fbLOGO.jpg");
+      background-size: cover;
+    }
+  .facebook-button{
+    display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      padding-left: 50px;
+      padding-top: 0%;
+  }
+  .forgot{
+    text-decoration: none;
+    padding-left: 100px;
+  }
+  .SignUpText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+  .signUp{
+    text-decoration: none;
+    font-weight: 530;
+  }
